@@ -1,0 +1,3 @@
+FROM eclipse-temurin:17
+COPY target/bikeapp.jar bikeapp.jar
+CMD [ "java","-jar","bikeapp.jar" ]
